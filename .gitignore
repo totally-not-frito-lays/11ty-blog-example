@@ -1,6 +1,6 @@
 _site/
 node_modules/
-package-lock.json
+# package-lock.json
 .cache
 test/__pycache__/playwright.cpython-312.pyc
 test/venv/lib64
