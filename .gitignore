@@ -1470,3 +1470,7 @@ test/venv/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/LICENS
 test/venv/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/METADATA
 test/venv/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/RECORD
 test/venv/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/WHEEL
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
