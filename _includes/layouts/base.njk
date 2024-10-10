@@ -47,11 +47,15 @@
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
 				</ul>
+				{#- You can also use the `public` directory to store images, CSS, and JavaScript #}
+				{#-
+				{# <img src="public/img/pizza.png" alt="Eleventy logo" class="pizza"> #}
 			</nav>
 		</header>
 
 		<main id="skip">
 			{{ content | safe }}
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Lj3_8eh0xYQLDhyh1pYwOF6l00mL7hIfww&s" alt="Cooked pizza on a baking tray in the oven" class="pizza">
 		</main>
 
 		<footer></footer>

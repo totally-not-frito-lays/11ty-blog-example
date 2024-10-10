@@ -120,3 +120,13 @@ If your site enforces a [Content Security Policy](https://developer.mozilla.org/
 
 1. In `base.njk`, remove `<style>{% getBundle "css" %}</style>` and uncomment `<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">`
 2. Configure the server with the CSP directive `style-src: 'unsafe-inline'` (less secure).
+
+## For testing / a11y + i18n checks
+
+Activate venv
+
+```bash
+python3 -m venv test/venv
+source test/venv/bin/activate
+pip install -r requirements.txt
+```
